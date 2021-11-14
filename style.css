@@ -1,0 +1,32 @@
+body{
+  background: rgba(231, 221, 221, 0.589);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;  
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 50vw;
+    box-shadow: 0 0 15px black;
+    padding: 1.5em;
+}
+#heading{
+    font-style: italic;
+    font-size: 1.2em;
+    font-family: praise;
+    color: darkred;
+    text-align: center;
+    margin: 0.2em;
+}
+.box{
+    border: 1px solid cornsilk;
+    box-shadow: 0 0 10px white;
+    padding: 0.5em;
+}
+#ans1,#ans2,#ans3{
+    color: white;
+    background: darkred;
+}
